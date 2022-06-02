@@ -1,0 +1,26 @@
+{
+  "name": "ribbon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JACodex/TeamRibbon.git"
+  },
+  "keywords": [
+    "liftoff"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JACodex/TeamRibbon/issues"
+  },
+  "homepage": "https://github.com/JACodex/TeamRibbon#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "mongodb": "^4.6.0"
+  }
+}
