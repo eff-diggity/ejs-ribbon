@@ -9,24 +9,134 @@ h2 {
 }
 
 
-.index-links a {
-    color: #5d3a40;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration: none;
-    
+#site-nav-banner {
+    display: flex;
+    text-align: center;
+
+}
+
+.links-banner {
+    display: flex;
 }
 
 .index-links {
-    display: inline;
-    margin-top: 5rem;
-text-align: center;
+    height: 80px;
+    width: auto;
 }
+
+.index-links a {
+    color: #57383d;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
 
 .logo-banner {
     filter: drop-shadow(0px 3px 3px rgb(56, 56, 56));
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 50%;
+}
+
+
+
+.divider-line {
+    border-top: 3px solid #a79795;
+    border-radius: 5px;
+}
+
+#index-section-heading {
+    text-align: center;
+}
+
+.blog-box {
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#blog-post {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#blog-title {
+    color: #57383d;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+
+}
+
+h3 {
+    color: #57383d;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+h4 {
+    color: #57383d;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    width: fit-content;
+    float: right;
+    text-align: left;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+    margin-left: 25px;
+    font: 200;
+}
+
+#blog-image {
+    float: left;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.testimonials {
+    height: 200px;
+    width: 75%;
+    text-align: center;
+    display: inline-flex;
+}
+
+#testimonial-boxes {
+    border-style: ridge;
+    border-color: #43474f;
+    border-width: 3px;
+    border-radius: 3px;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+}
+
+#testimonial-title {
+    color: #57383d;
+    font-size: medium;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#testimonials.boxes a {
+    color: #57383d;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    color: #57383d;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .search-wrapper {
