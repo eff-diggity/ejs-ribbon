@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- lines (1-9) = boilerplate (click red arrows next to index, then put ! into window and hit enter it auto-loads code)-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- links the style sheet-->
+    <link src="searchscript.js" defer> <!-- defer makes the html doc get parsed before JS, not delayed-->
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="search-wrapper">
+        <label for="search">Search Ribbon</label> <!-- search element-->
+        <input type="search" id="search">
+        <!-- type search is specific HTML type, id="search" links it to for="search" on(11)-->
+    </div>
+    <!-- <div class="results-cards">
+        <div class="card">
+            <div class="header">Blog/product name</div>
+            <div class="body">Blog/product description tag</div>
+        </div>
+    </div>
+    <div class="results-cards">
+        <div class="card">
+            <div class="header">Blog/product name</div>
+            <div class="body">Blog/product description tag</div>
+        </div>
+    </div>
+    <div class="results-cards">
+        <div class="card">
+            <div class="header">Blog/product name</div>
+            <div class="body">Blog/product description tag</div>
+        </div>
+    </div> -->
+    <div class="results-cards"></div>
+    <template search-card-template>
+        <!-- template created from card commented out above-->
+        <div class="card">
+            <div class="header"></div> <!-- card title/body populated by JS-->
+            <div class="body"></div>
+        </div>
+        </div>
+    </template>
+
+
+
+
+</body>
+
+</html>
