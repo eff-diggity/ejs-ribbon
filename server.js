@@ -1,14 +1,17 @@
 const express = require("express");
 const app = express();
+const path = require('path');
 const bodyParser = require("body-parser");
+const res = require("express/lib/response");
+
+app.get('/', (req, res) => {
+    res.send('Ribbon');
+});
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
+const PORT = process.env.PORT || 3000;
 
-app.get("/", function (req, res) {
-    res.send("express is working")
-})
+app.use(express.static(path.join(__dirname, 'public')));
 
-app.listen(3000, function () {
-    console.log("server is running on 3000");
-})
+app.listen(PORT, () => console.log(`server is running on ${PORT}`));
