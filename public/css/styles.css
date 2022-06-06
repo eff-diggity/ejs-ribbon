@@ -1,0 +1,47 @@
+/* font styling: font-family: 'Joan',
+serif; */
+
+/* colors: #2d5871, #673f39, #33b0e4,#a8802d , #524342*/
+
+
+
+body {
+    background-color: #c0b89f;
+    font-family: 'Joan',
+        serif;
+}
+
+.d-flex {
+    background-color: #2d5871;
+
+}
+
+.bbrg {
+    list-style-type: none;
+}
+
+.container-m {
+    background-color: #2d5871;
+    font-family: 'Joan',
+        serif;
+    max-width: 1000px;
+}
+
+main {
+    align-items: center;
+}
+
+.lead a {
+    text-decoration: none;
+    align-items: center;
+}
+
+.lead {
+    align-items: center;
+}
+
+.container-l {
+    background-color: #2d5871;
+    font-family: 'Joan',
+        serif;
+}
